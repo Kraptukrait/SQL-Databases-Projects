@@ -5,25 +5,25 @@ Welcome to the **SQL database projects**! In this repository you will find a col
 
 ## 📋 Contents of the repository
 
-**Project 1: Internship Database**  
+- **Project: Internship Database**  
 A complete database for managing internships, including tables for companies, supervisors, teachers, students, internships, reports, and related data.
 
-- **Project 2: Book Database**  
+- **Project: Book Database**  
   A database for managing books, publishers, authors, categories, and library loans, including records for late fees, customers, and borrowing transactions.
 
-- **Project 3: Class Schedule Database**  
+- **Project: Class Schedule Database**  
   A database to manage teachers, classes, subjects, students, and their schedules, allowing for the assignment of teachers to specific classes and subjects at certain times.
 
-- **Project 4: Employee Database**  
+- **Project: Employee Database**  
   A database for managing employees and departments, including their details, and the relationship between departments and company locations.
 
-- **Project 5: Training Company Database**  
+- **Project: Training Company Database**  
   A database for a training company that manages trainers, rooms, and courses, including details about the instructors, rooms, and course schedules.
 
-- **Project 6: Running Event Database**  
+- **Project: Running Event Database**  
   A database for managing participants and events in running competitions, including the details of runners, events, and participation records.
 
-- **Project 7: Equipment Rental Database**  
+- **Project: Equipment Rental Database**  
   A database for managing customers, machines, machine types, rental transactions, and locations, including details about the machines, rental periods, and maintenance.
 
 
