@@ -67,7 +67,7 @@ Now you can execute the various SQL queries and work with the data.
 
 ## 👨‍💻 Developer
 
-This repository was created by **[your name]**, a passionate programmer who enjoys working on various SQL database projects. Follow me on GitHub to discover more interesting projects!
+This repository was created by **Kraptukrait**, a passionate programmer who enjoys working on various SQL database projects. Follow me on GitHub to discover more interesting projects!
 
 ## 📢 License
 
