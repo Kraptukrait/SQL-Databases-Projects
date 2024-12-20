@@ -4,18 +4,18 @@ USE internship;
 
 CREATE TABLE tbl_company(
     pk_company_name VARCHAR(50) NOT NULL PRIMARY KEY,
-    company_street_number VARCHAR(99) NOT NULL,
-    company_postal_location VARCHAR(29) NOT NULL,
-    company_phone VARCHAR(38),
-    company_contact_person VARCHAR(45)
+    company_street_number VARCHAR(100) NOT NULL,
+    company_postal_location VARCHAR(30) NOT NULL,
+    company_phone VARCHAR(40),
+    company_contact_person VARCHAR(50)
 ) ENGINE=InnoDB;
 
 CREATE TABLE tbl_supervisor(
     pk_id_supervisor INT AUTO_INCREMENT PRIMARY KEY,
-    supervisor_name VARCHAR(45) NOT NULL,
-    supervisor_phone VARCHAR(39),
-    supervisor_email VARCHAR(68),
-    fk_company VARCHAR(48) NOT NULL,
+    supervisor_name VARCHAR(50) NOT NULL,
+    supervisor_phone VARCHAR(40),
+    supervisor_email VARCHAR(70),
+    fk_company VARCHAR(50) NOT NULL,
     FOREIGN KEY(fk_company)
         REFERENCES tbl_company(pk_company_name)
         ON UPDATE CASCADE
@@ -24,8 +24,8 @@ CREATE TABLE tbl_supervisor(
 
 CREATE TABLE tbl_teacher(
     pk_id_teacher INT AUTO_INCREMENT PRIMARY KEY,
-    teacher_lastname VARCHAR(45) NOT NULL,
-    teacher_firstname VARCHAR(45) NOT NULL
+    teacher_lastname VARCHAR(50) NOT NULL,
+    teacher_firstname VARCHAR(50) NOT NULL
 ) ENGINE=InnoDB;
 
 CREATE TABLE tbl_class(
@@ -39,9 +39,9 @@ CREATE TABLE tbl_class(
 
 CREATE TABLE tbl_student(
     pk_id_student INT AUTO_INCREMENT PRIMARY KEY,
-    student_lastname VARCHAR(45),
-    student_firstname VARCHAR(45),
-    student_email VARCHAR(65),
+    student_lastname VARCHAR(50),
+    student_firstname VARCHAR(50),
+    student_email VARCHAR(70),
     fk_class VARCHAR(10),
     FOREIGN KEY(fk_class)
         REFERENCES tbl_class(pk_class_name)
@@ -75,7 +75,7 @@ CREATE TABLE tbl_internship(
 CREATE TABLE tbl_report(
     pk_id_report INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
     report_date DATE,
-    report_grade INT(12),
+    report_grade INT(10),
     fk_internship INT,
     FOREIGN KEY(fk_internship)
         REFERENCES tbl_internship(pk_id_internship)
