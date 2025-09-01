@@ -25,7 +25,7 @@ A complete database for managing internships, including tables for companies, su
 
 - **Project: Equipment Rental Database**  
   A database for managing customers, machines, machine types, rental transactions, and locations, including details about the machines, rental periods, and maintenance.
-
+- **Project: ...**  
 
 ## 🛠️ Technologies
 
